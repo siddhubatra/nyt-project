@@ -7,11 +7,53 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Document</title>
-
+    <script src="https://kit.fontawesome.com/888b3c0fea.js"></script>
+    <title>NYT Article Search!</title>
 </head>
 
 <body>
+    <div id="container">
+        <div class="jumbotron jumbotron-fluid text-white text-center font-weight-bold"
+            style="background-color: #21325A">
+            <div class="container #21325A">
+                <h1 class="display-4"> <i class="far fa-newspaper"></i> New York Times Search</h1>
+            </div>
+        </div>
+
+        <form>
+            <div class="form-group">
+                <label for="formGroupExampleInput">Search term</label>
+                <input type="text" class="form-control" id="formGroupExampleInput">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Number of Records to Retreive</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput">Start year (optional)</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput">End year (optional)</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+            </div>
+            <button type="submit" class="btn btn-primary">Search</button>
+            <button type="submit" class="btn btn-primary">Clear results</button>
+        </form>
+        <br>
+        <div id="Top articles">
+            <h3>Top articles:</h3>
+
+        </div>
+
+
+    </div>
 
 </body>
 
